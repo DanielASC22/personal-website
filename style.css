@@ -1,0 +1,121 @@
+header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+button {
+    padding: 9px 25px;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: lightyellow;
+    color:black;
+    border: none;
+    border-radius: 50px;
+}
+
+button:hover {
+    color: blue;
+    cursor: pointer;
+    border-style: groove;
+}
+
+li, a, h3 {
+    font-family: 'Trebuchet MS';
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+h3 {
+    padding: 9px 25px;
+    border-radius: 20px;
+    background-color: lightcoral;
+}
+
+#navbar_items {
+    list-style: none;
+}
+
+#navbar_items li:hover {
+    transition: ease-in 0.5;
+    background-color: lightyellow;
+}
+
+#navbar_items li{
+    display: inline-block;
+    padding: 0px 20px;
+} 
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ NAV BAR ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+
+
+/* Aestethics of the page  */
+
+body {
+    background-color: lightblue;
+}
+hr {
+    color: lightcoral;
+    background-color: lightcoral;
+}
+
+/* Aestethic of the page  */
+
+#daniel {
+    height: 300px;
+    border-radius: 100%;
+}
+
+#about_me {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+
+    display: flex;
+    padding: 20px 5%;
+}
+
+#about_me p {
+    align-items: center;
+    font-size: larger;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^ ABOUT ME ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+#lrei {
+    width: 100px;
+}
+
+#education {
+    display: flex;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+#education p {
+    font-size: larger;
+    padding: 10px 100px;
+}
+
+#education h2 {
+
+    display: block;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ EDUCATION ^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+#extracurricular {
+    display: flex;
+}
